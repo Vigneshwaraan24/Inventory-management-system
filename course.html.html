@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width,initial-scale=1.0">
+<title>University Website Design - Edufort</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="image/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="login page.html">LOGIN</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html.html">ABOUT</a></li>
+            <li><a href="course.html.html">COURSE</a></li>
+            <li><a href="blog.html.html">BLOG</a></li>
+            <li><a href="contact.html.html">CONTACT</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Courses</h1>
+</section>
+
+<!------course------>
+
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Graduate programs are generally designed to help develop future leaders, rather than simply providing the basic on-the-job training. </p>
+    <div class="row">
+        <div class="course-col">
+            <h2>Intermediate</h2>
+            <p>Graduate programs offer training; mentoring and hands-on experience, often across a range of different departments designed to fast-track a career pathway.Graduate programs also offer the opportunity to perform multiple roles in an organization on a rotating basis, giving you more exposure to a range of different jobs within your chosen field. Graduate programs will challenge and prepare you for whatever path you will take after graduate school.</p>
+        </div>
+        <div class="course-col">
+            <h2>Degree</h2>
+            <p>Graduate programs offer training; mentoring and hands-on experience, often across a range of different departments designed to fast-track a career pathway.Graduate programs also offer the opportunity to perform multiple roles in an organization on a rotating basis, giving you more exposure to a range of different jobs within your chosen field. Graduate programs will challenge and prepare you for whatever path you will take after graduate school.</p>
+        </div>
+        <div class="course-col">
+            <h2>Post Graduation</h2>
+            <p>Graduate programs offer training; mentoring and hands-on experience, often across a range of different departments designed to fast-track a career pathway.Graduate programs also offer the opportunity to perform multiple roles in an organization on a rotating basis, giving you more exposure to a range of different jobs within your chosen field. Graduate programs will challenge and prepare you for whatever path you will take after graduate school.</p>
+        </div>
+    </div>
+</section>
+
+
+<!------JavaScript for Toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+    
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    </script>
+
+
+
+
+
+<!-----Footer----->
+<section class="footer">
+    <h2>About Us</h2>
+    <p>Edufort is a blog website where you will find great tutorials on web design and development.<br>Here each tutorial is beautifully described step by step with the required source code.</p>
+    <div class="icons">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Vigneshwaraan.S</p>
+</section>
+
+</body>
+
+</html>
